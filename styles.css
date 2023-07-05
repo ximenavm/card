@@ -1,0 +1,105 @@
+*{
+    
+}
+
+body {
+    background: #f2ebe3;
+
+}
+
+.container{
+    align-items: center;
+}
+
+.card {
+	background-color:white;
+	border-radius: 2%;
+	display: flex;	
+	margin: 40px;
+	overflow: hidden;
+	width: 700px;
+	height: 525px;
+    position: absolute;
+    margin-top: 11%;
+    margin-left: 33%;
+    margin-right: 33%;
+    margin-bottom: 40%;
+}
+
+.card h3{
+    letter-spacing: 3px;
+    color: #6c7289;
+    front-size: 16px;
+    font-family: "montserrat, serif";
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.card h1 {
+    color:#1c232b;
+    font-family:"Frainces", "serif";
+    font-size: 34px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+
+.card p{
+    margin: 22px;
+    margin-left: 40px;
+    margin-bottom: 32px;
+    color:#6c7289;
+    line-height: 1.5;
+    font-family: "montserrat, serif";
+    font-size: 18px;
+}
+
+.precio{
+    margin-bottom: 0;
+    display:inline-flex;
+    list-style: none;
+}
+
+#precio1{
+    color:#3c8067;
+    font-family: "Fraunces"; 
+    font-size: 2rem;  
+    margin-bottom: 32px;
+    margin-left: 40px; 
+    margin-right: 24px;
+    list-style: none;
+}
+
+#precio2{
+    color: #010503;
+    text-decoration: line-through;
+    opacity: 50%;
+    font-size: 16px;
+    font-family: "montserrat, serif";
+    list-style: none;
+}
+
+.card button{
+    color: #FFFFFF;
+    background: #1A372D;
+    display:flex;
+    margin-right: 40px;
+    margin-top: 32px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    padding: 16px 80px;
+    border-radius: 5%;
+    font-family: "Montserrat";
+    font-size: 12px;
+    text-align:center;
+}
+
+.butoon:hover{
+    cursor:pointer;
+    border: solid #35b316; 18px; 
+}
+
+.icon{
+   margin-right: 8px;
+}
